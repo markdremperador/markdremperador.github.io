@@ -7,7 +7,6 @@
 }
 
 hr {
-    width: 900px;
     margin: auto;
 }
 
@@ -64,9 +63,10 @@ body {
     transition: all .5s ease;
 }
 
-.navbar ul li a:hover {
-    background-color: white;
-    color: black;
+.navbar ul li a:hover,
+.active {
+    background-color: rgb(33, 32, 32);
+    color: white;
     box-shadow: 0 0 10px white;
 }
 
